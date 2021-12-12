@@ -142,6 +142,8 @@ function backspace() {
     } else {
       currentValue = currentValue.substring(0, currentValue.length - 1)
     }
+
+    updateDisplay()
   }
 }
 
